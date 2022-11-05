@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../static/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Montserrat-Italic';
+  src: url("../static/Montserrat-Italic.ttf");
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url("../static/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBoldItalic';
+  src: url("../static/Montserrat-SemiBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: 'Schoolbell';
+  src: url("../static/Schoolbell-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'BACKTO1982';
+  src: url("../static/BACKTO1982.ttf");
+}
+
+@font-face {
+  font-family: 'INVASION2000';
+  src: url("../static/INVASION2000.ttf");
+}
+
+@font-face {
+  font-family: 'DisposableDroidBB';
+  src: url("../static/DisposableDroidBB.ttf");
+}
+
+@font-face {
+  font-family: 'LOTSOFDOTZ';
+  src: url("../static/LOTSOFDOTZ.TTF");
+}
+
+@font-face {
+  font-family: 'kongtext';
+  src: url("../static/kongtext.ttf");
+}
+
+@font-face {
+  font-family: 'pxiky';
+  src: url("../static/pxiky.woff2");
+}

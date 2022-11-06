@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import styled from "styled-components";
 import { ethers } from "ethers";
 
-import { get, subscribe } from "../widget/store";
+import { get, subscribe } from "../../widget/store";
 import ConnectWallet, { connectWallet } from "./ConnectWallet";
 import showMessage from "./showMessage";
 import BigNumber from "bignumber.js";
@@ -13,8 +13,8 @@ import {
   CONTRACT_STATUS,
   FREE_MINT_AMOUNT,
   MAX_FREE_MINT_PER_ADDR
-} from "../widget/projectParam";
-import { padWidth } from "../widget/utils";
+} from "../../widget/projectParam";
+import { padWidth } from "../../widget/utils";
 
 
 

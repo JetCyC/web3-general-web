@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Tooltip from "@mui/material/Tooltip";
-import { SOCIAL_MEDIA_URL } from "../widget/projectParam";
-import { padWidth } from "../widget/utils";
+import { SOCIAL_MEDIA_URL } from "../../widget/projectParam";
+import { padWidth } from "../../widget/utils";
 
 
 const FootertipsDiv = styled.div`

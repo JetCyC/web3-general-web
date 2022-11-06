@@ -6,10 +6,10 @@ import WalletConnectProvider from "@walletconnect/web3-provider";
 import Chip from "@mui/material/Chip";
 
 import showMessage from "./showMessage";
-import { set, get, subscribe } from "../widget/store";
-import { formatAddress, padWidth } from "../widget/utils";
-import RinkebyContractABI from "../abi/rinkeby.json";
-import MainnetContractABI from "../abi/mainnet.json";
+import { set, get, subscribe } from "../../widget/store";
+import { formatAddress, padWidth } from "../../widget/utils";
+import RinkebyContractABI from "../../../abi/rinkeby.json";
+import MainnetContractABI from "../../../abi/mainnet.json";
 
 const CHAIN_ID = process.env.NEXT_PUBLIC_CHAIN_ID;
 const NETWORK = CHAIN_ID === "1" ? "mainnet" : "rinkeby";

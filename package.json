@@ -1,16 +1,19 @@
 {
-  "name": "galaxyz6web",
+  "name": "web3-general-web",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "export": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint --fix \"src/**/*.{js,jsx}\""
   },
   "dependencies": {
-    "@emotion/react": "^11.7.1",
+    "@emotion/cache": "^11.6.0",
+    "@emotion/react": "^11.7.0",
+    "@emotion/server": "^11.4.0",
     "@emotion/styled": "^11.6.0",
+    "@mui/lab": "^5.0.0-alpha.70",
     "@mui/icons-material": "^5.4.2",
     "@mui/material": "^5.4.2",
     "@sentry/browser": "^6.19.7",
@@ -23,12 +26,29 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-i18next": "^11.15.7",
-    "web3modal": "^1.9.5"
+    "web3modal": "^1.9.5",
+
+    "@popperjs/core": "^2.11.2",
+    "apexcharts-clevision": "3.28.5",
+    "babel-eslint": "^10.1.0",
+    "clsx": "^1.1.1",
+    "mdi-material-ui": "^7.1.0",
+    "nprogress": "^0.2.0",
+    "react-apexcharts": "^1.3.9",
+    "react-datepicker": "^4.5.0",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-popper": "^2.2.5"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^2.0.2",
     "babel-plugin-transform-remove-console": "^6.9.4",
     "eslint": "8.9.0",
-    "eslint-config-next": "12.0.10"
+    "eslint-config-next": "12.0.10",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "next-transpile-modules": "^9.0.0",
+    "prettier": "2.5.1"
   }
 }

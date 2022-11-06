@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import Typography from "@mui/material/Typography";
 import _ from "lodash";
-import { padWidth } from "../widget/utils";
-import { CONTRACT_NFT_OFFICIAL_NAME } from "../widget/projectParam";
+import { padWidth } from "../../widget/utils";
+import { CONTRACT_NFT_OFFICIAL_NAME } from "../../widget/projectParam";
 
 const GalleryList = styled.div`
   display: flex;

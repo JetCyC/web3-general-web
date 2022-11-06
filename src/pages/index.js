@@ -1,14 +1,14 @@
 import { useEffect } from "react";
 import Head from "next/head";
 import initSentry from "../widget/sentryInite"
-import Intro from "../components/Intro";
-import FAQ from "../components/FAQ";
-import Mint from "../components/Mint";
-import Roadmap from "../components/Roadmap";
-import Footer from "../components/Footer";
-import About from "../components/About";
-import Gallery from "../components/Gallery";
-import Show from "../components/Show";
+import Intro from "../layout/components/Intro";
+import FAQ from "../layout/components/FAQ";
+import Mint from "../layout/components/Mint";
+import Roadmap from "../layout/components/Roadmap";
+import Footer from "../layout/components/Footer";
+import About from "../layout/components/About";
+import Gallery from "../layout/components/Gallery";
+import Show from "../layout/components/Show";
 
 export default function Home() {
   useEffect(() => {
@@ -31,9 +31,9 @@ export default function Home() {
       <Head>
         <title>WEB3 NFT</title>
         <meta charset="utf-8" />
-        <meta name="description" content="Start the Web3er Space journey now by owning a Spuccy NFT." />
-        <meta name="keywords" content="Spuccy,SpuccyNFT,NFT,Metaverse" />
-        <meta name="author" content="Spuccy" />
+        <meta name="description" content="Start the Web3er Space journey now by owning a WEB3 NFT." />
+        <meta name="keywords" content="WEB3,WEB3NFT,NFT,Metaverse" />
+        <meta name="author" content="WEB3" />
         <link rel="icon" href="/favicon.png" />
         {/* Global Site Tag (gtag.js) - Google Analytics */}
         <script

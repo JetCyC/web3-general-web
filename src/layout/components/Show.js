@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { padWidth } from "../widget/utils";
-import { CONTRACT_NFT_OFFICIAL_NAME } from "../widget/projectParam";
+import { padWidth } from "../../widget/utils";
+import { CONTRACT_NFT_OFFICIAL_NAME } from "../../widget/projectParam";
 
 const GalleryList = styled.div`
   display: flex;

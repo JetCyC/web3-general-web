@@ -2,8 +2,8 @@ import styled from "styled-components";
 import Tooltip from "@mui/material/Tooltip";
 
 import ConnectWallet from "./ConnectWallet";
-import { padWidth } from "../widget/utils";
-import { CONTRACT_NFT_OFFICIAL_NAME, CONTRACT_NFT_SAMBLE_NAME, SOCIAL_MEDIA_URL } from "../widget/projectParam";
+import { padWidth } from "../../widget/utils";
+import { CONTRACT_NFT_OFFICIAL_NAME, CONTRACT_NFT_SAMBLE_NAME, SOCIAL_MEDIA_URL } from "../../widget/projectParam";
 
 const Head = styled.div`
   display: flex;

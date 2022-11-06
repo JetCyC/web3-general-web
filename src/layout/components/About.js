@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Container from "./Container";
 import Typography from "@mui/material/Typography";
-import { padWidth } from "../widget/utils";
+import { padWidth } from "../../widget/utils";
 
 const AboutContainer = styled.div`
   display: flex;

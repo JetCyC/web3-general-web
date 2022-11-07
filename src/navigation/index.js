@@ -1,9 +1,14 @@
 const navigation = () => {
-return [{
-    title:"",
-    icon:'',
-    path:'/'
-},{}]
+    return [
+        {
+            title: "",
+            icon: '',
+            path: '/'
+        },
+        {
+
+        }
+    ]
 }
 
 export default navigation

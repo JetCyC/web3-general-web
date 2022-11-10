@@ -13,6 +13,12 @@ import ListItemButton from '@mui/material/ListItemButton'
 // ** Configs Import
 import themeConfig from 'src/configs/themeConfig'
 
+// ** Custom Components Imports
+import UserIcon from 'src/layouts/components/UserIcon'
+
+// ** Utils
+import { handleURLQueries } from 'src/@core/layouts/utils'
+
 const VerticalNavLink = ({ item, navVisible, toggleNavVisibility }) => {
 
 
